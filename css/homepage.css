@@ -162,20 +162,6 @@ font-weight: 500;
 line-height: 1.1;
 }
 
-.ideas_image
-{
-
-width:438px;
-height: 400px; 
-} 
-
-.ideas_image:hover {
-    opacity: 0.6;
-}
-
-.ideas_image:hover + .idea-text{
-	display: block;
-}
 
 .thumbnail
 {
@@ -185,12 +171,25 @@ border: none;
 
 .idea-box{
 	position: relative;
+	height: 300px;
+	overflow: hidden;
 }
 
-.idea-text
+.idea-box img{
+	width: 450px;
+}
+
+.idea-box .idea-hover
 {
 	display:none;
 	position: absolute;
+	top:0;
 	width: 100%;
 	height: 100%;
+	background-color: black;
+}
+
+.idea-box:hover .idea-hover{
+	opacity: 0.8;
+	display: block;
 }
