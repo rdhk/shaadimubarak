@@ -1,0 +1,196 @@
+body{
+	background-image: url("../imgs/sample9.jpg");
+}
+
+.carousel.slide{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.jumbotron{
+	background-image: url("../imgs/sample12.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0 -117px;
+
+}
+
+.center-align-for-block{
+	margin: 0 auto;
+}
+
+.btn-group{
+margin-left:260px;
+}
+
+.btn-group>.btn
+{
+width: 70px;
+height: 30px;
+}
+
+.btn-default {
+color: #ffffff;
+background-color: #DD1C33;
+border-color: #aea79f;
+}
+
+
+.btn {
+margin-top: 21px;
+}
+
+#signup{
+border: 0px;
+}
+
+ #login
+{
+
+border: 0px solid grey;
+margin-left: 2px;
+} 
+
+.heading1
+{
+color:#fff;
+align:center;
+}
+
+/* .modal-content
+{
+	background-image: url("../imgs/modal_bg.jpg");
+} */
+
+.modal fade
+{
+	font-family: Museo Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.backdrop-envelope {
+	margin-top: 30px;
+max-width: 610px;
+background: url("../imgs/envelope13.png") no-repeat scroll center rgba(0,0,0,0);
+width: 610px;
+padding-top: 180px;
+padding-left: 20px;
+text-align: center;
+background-position: 45px 50px;
+}
+
+.modal-content.modal-flourish {
+
+
+max-width: 430px;
+float: none;
+margin: 0 auto;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: #fff;
+background-image: url("../imgs/flourish.jpg"),url("../imgs/flourish - Copy.jpg");
+background-origin: padding-box;
+background-position: -24px 207px,248px -20px;
+background-repeat: no-repeat;
+background-size: auto auto;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+}
+
+
+@font-face {
+    font-family: Learning Curve;
+    src: url("../fonts/LearningCurve.ttf");
+}
+
+@font-face { font-family: 'GreatVibes-Regular'; 
+src: url("../fonts/GreatVibes-Regular");}
+
+#myModalLabel
+{
+	/*font-family: Coronetscript;	 */
+	font-family: Learning Curve;
+	font-weight: 300;
+color: #000;
+line-height: 1;
+font-size: 52px;
+}
+
+.modal-body > h2
+{
+font-family: Learning Curve;
+	font-weight: 300;
+color: #000;
+line-height: 1;
+font-size: 45px;
+}
+
+#signup_vendor
+{
+	margin-right:10px;
+	font-family: Learning Curve; 
+	font-weight: 300;
+	line-height: 1;
+font-size: 45px;
+background-color: #DD1C33
+}
+
+#signup_customer
+{
+	margin-left:10px; 
+	font-family: Learning Curve;
+	font-weight: 300;
+	line-height: 1;
+font-size: 45px;
+background-color: #DD1C33
+}
+
+.cursive_font
+{
+	font-family: Learning Curve; 
+	font-weight: 300;
+	line-height: 1;
+	font-size: 26px
+    
+}
+
+
+.heading_font
+{
+	font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 500;
+line-height: 1.1;
+}
+
+.ideas_image
+{
+
+width:438px;
+height: 400px; 
+} 
+
+.ideas_image:hover {
+    opacity: 0.6;
+}
+
+.ideas_image:hover + .idea-text{
+	display: block;
+}
+
+.thumbnail
+{
+background: none; 
+border: none;
+}
+
+.idea-box{
+	position: relative;
+}
+
+.idea-text
+{
+	display:none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
