@@ -2,11 +2,6 @@ body{
 	background-image: url("../imgs/sample9.jpg");
 }
 
-.carousel.slide{
-	width: 70%;
-	margin: 0 auto;
-}
-
 .jumbotron{
 	background-image: url("../imgs/sample12.jpg");
 	background-repeat: no-repeat;
