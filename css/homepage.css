@@ -193,3 +193,17 @@ border: none;
 	opacity: 0.8;
 	display: block;
 }
+
+.idea-text
+{
+	color:white;
+	font-size: 25px;
+}
+
+.carousel-caption
+{
+	bottom:50px;
+	font-size: 60px;
+	font-family: Learning Curve;
+}
+ 
